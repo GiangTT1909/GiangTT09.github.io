@@ -95,6 +95,8 @@
         height: 500px !important;
         margin-top: 100px;
         top: 80px !important;
+        margin-left: 23px !important;
+        width: 100% !important;
     }
     footer {
         margin-bottom: 50px;
