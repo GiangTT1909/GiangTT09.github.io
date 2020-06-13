@@ -94,6 +94,7 @@
     #content {
         height: 500px !important;
         margin-top: 100px;
+        top: 80px !important;
     }
     footer {
         margin-bottom: 50px;
