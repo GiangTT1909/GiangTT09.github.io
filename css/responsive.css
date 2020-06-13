@@ -80,6 +80,14 @@
 }
 
 @media(max-width: 768px) {
+    .contact-info li {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contact-info li:last-child {
+        margin-bottom: 30px;
+    }
     .button {
         left: 50px;
     }
@@ -133,5 +141,25 @@
     .content-deta a {
         margin-right: 0 !important;
         margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .content-deta li {
+        width: 100% !important;
+    }
+    .contact p {
+        font-size: 10px !important;
+        left: 10px !important;
+    }
+    #content {
+        height: 450px !important;
+    }
+    footer a {
+        font-size: 15px !important;
+        margin-left: 5px !important;
+    }
+    footer li {
+        margin-left: 5px !important;
     }
 }
